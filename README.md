@@ -1,6 +1,6 @@
 # JLabs Assessment — IP Geolocation App (API + React)
 
-A two-repo sample that demonstrates **auth + routing + IP geolocation** with a clean, centered UI.
+A two-repo sample that demonstrates **auth + routing + IP geolocation** with a clean UI.
 
 - **Backend**: `jlabs_api_auth` (Node/Express + SQLite)  
   Exposes `POST /api/login` with a **seeded user** and **JWT** auth.
@@ -32,3 +32,22 @@ A two-repo sample that demonstrates **auth + routing + IP geolocation** with a c
 - **Tools**: Postman, `nodemon`, optional `nvm` pinning
 
 ---
+
+## Installation
+
+1. **Clone the repository:**
+
+```> git clone https://github.com/d4jiee/JLabs_Assessment```
+
+2. **Navigate to project directory of `jlabs_api_auth` or/then `jlabs_web`**
+
+```> cd jlabs_api_auth```
+```> cd jlabs_web```
+
+3. **Install the dependencies on both `jlabs_api_auth` and `jlabs_web` using npm**
+
+```> npm install```
+
+4. **Run `jlabs_api_auth` and `jlabs_web`**
+
+```> npm run dev```
