@@ -23,20 +23,12 @@ A two-repo sample that demonstrates **auth + routing + IP geolocation** with a c
   - **History** in `localStorage` (cap 50): click to reload, **Delete selected**, **Clear all**.
   - **Map** (Leaflet) with marker that **auto-recenters** on each search/clear.
 
-- **UI**
-  - Fully **centered** vertically & horizontally.
-  - Card-style components.
-  - Clear error & loading states.
-
 ---
 
 ## 🧱 Tech Stack
 
-- **API**: Node.js (LTS 20), Express, SQLite3, bcrypt/bcryptjs, jsonwebtoken, CORS, dotenv  
+- **API**: Node.js (LTS 22), Express, SQLite3, bcrypt/bcryptjs, jsonwebtoken, CORS, dotenv  
 - **Web**: React (Vite), React Router, Axios, `is-ip` (named exports), Leaflet (`react-leaflet`)  
 - **Tools**: Postman, `nodemon`, optional `nvm` pinning
 
 ---
-
-## 📁 Repo Layout
-
