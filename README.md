@@ -37,17 +37,27 @@ A two-repo sample that demonstrates **auth + routing + IP geolocation** with a c
 
 1. **Clone the repository:**
 
-```> git clone https://github.com/d4jiee/JLabs_Assessment```
+```bash
+> git clone https://github.com/dAjiee/JLabs_Assessment
+```
 
 2. **Navigate to project directory of `jlabs_api_auth` or/then `jlabs_web`**
 
-```> cd jlabs_api_auth```
-```> cd jlabs_web```
+```bash
+> cd jlabs_api_auth
+```
+```bash
+> cd jlabs_web
+```
 
 3. **Install the dependencies on both `jlabs_api_auth` and `jlabs_web` using npm**
 
-```> npm install```
+```bash
+> npm install
+```
 
 4. **Run `jlabs_api_auth` and `jlabs_web`**
 
-```> npm run dev```
+```bash
+> npm run dev
+```
